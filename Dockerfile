@@ -14,7 +14,7 @@ WORKDIR /app
 ENV LIVEKIT_URL=wss://idea-mwqr3qhm.livekit.cloud
 ENV LIVEKIT_API_KEY=APIQiGNst42SC42
 ENV LIVEKIT_API_SECRET=CRo9ZyrepVQtEPUAn18jzU04e2zSOwhk78SoWh0s6fyB
-ENV OPENAI_API_KEY=GA6BIWIBHVC25TG2KQUJNZ2FZQ4M44QPVYGUGDXM7WZ7K7F4FW3DG2ZQ
+ENV OPENAI_API_KEY=
 ENV MONGODB_URL=mongodb://localhost:27017
 
 RUN apt-get update && apt-get install -y ca-certificates openssl wget python3 make g++ && \
